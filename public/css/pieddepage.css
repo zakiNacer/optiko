@@ -1,0 +1,159 @@
+
+/* dubut du footer */
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    
+    /* linear-gradient est une fonction qui permet de créer une image dégradé entre plusieurs couleurs */
+    background: linear-gradient(to right, #00094c, #2d0b00);
+    /* border raduis du background */
+    color: #fff;
+    padding: 25px 0 5px;
+    border-top-left-radius: 100px;
+    font-size: 13px;
+    line-height: 15px;
+}
+/* découper les element du footer avec flex */
+
+.flex-b{
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 15px;
+}
+
+.col{
+   flex-basis: 25%;
+   /* padding: 0px; */
+}
+           
+/* 2emme block */
+.col h3{
+   width: fit-content;
+   margin-bottom: 0px;
+   position: relative;
+   padding: 10px;
+
+}
+.col p{
+   width: fit-content;
+   
+   /* padding: 10px; */
+
+   /* top: 20px; */
+   
+  
+}
+.bas{
+   display: flex;
+   position: relative;
+   top: 30px;
+   right: 10px;
+   
+}
+.email-id{
+   /* fit-content() permet d'obtenir une dimension restreinte à un intervalle donnée  */
+   width: fit-content;
+   border-bottom: 1px solid #ccc;
+   margin: 20px 0;
+}
+ul li{
+   list-style: none;
+   margin-bottom: 12px;
+}
+ul li a {
+   text-decoration: none;
+   color: blue;
+}
+/* end links param */
+
+
+
+/* 4eme block le news letter */
+.nEwsLtr{
+   padding-bottom: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 50px;
+}
+/* parametrer far de latribut font awesome pour lenvelope du newsletter */
+.nEwsLtr .far{
+   font-size: 18px;
+   margin-right: 10px;
+}
+.nEwsLtr input{
+   width: 100%;
+   background: transparent;
+   color: #ccc;
+   border: 0;
+   outline: none;
+}
+
+/* le submit */
+.nEwsLtr button{
+   background: transparant;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+}
+.nEwsLtr button .fas{
+   font-size: 16px;
+   color: #ccc;
+}
+/* personaliser les icones */
+.social-icons .fab{
+   width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   text-align: center;
+   line-height: 40px;
+   font-size: 20px;
+   color: #000;
+   background: #fff;
+   margin-right: 20px;
+   cursor: pointer;
+}
+.col a{
+   color: white;
+   font-size: 15px;
+}
+hr{
+   width: 90%;
+   border: 0;
+   border-bottom: 1px solid white;
+   margin: 1px auto;
+}
+.copyright{
+   text-align: center;
+   padding-bottom: 0px;
+}
+/* le responsive */
+@media (max-width:820px){
+  
+   .bas{
+       font-size: 13px;
+   } 
+  .wiw{
+   display: none;
+  }
+  .bas{
+   display: none;
+  }
+}
+@media (max-width:400px){
+  
+   .col ul{
+      display: flex;
+      flex-direction: column;
+   }
+   .col a{
+      color: white;
+      font-size: 15px;
+   }
+}
+
+
+
+/*  ... pour le debordement */

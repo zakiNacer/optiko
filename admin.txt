@@ -1,0 +1,13 @@
+admin
+optiko2022@gmail.com
+Password
+Optikostage2022
+
+pour le fonctionnement de la fonction mail() assurer bien que smtp du sendmail.ini est bien configuré:
+smtp_server=smtp.gmail.com
+smtp_port=465
+
+ainsi que le fichier php.ini est bien configuré aussi au niveau de l'émetteur
+sendmail_from = loremipsum@gmail.com
+ainsi que ke path
+sendmail_path ="C:\xampp\sendmail\sendmail.exe -t"

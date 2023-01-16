@@ -1,0 +1,94 @@
+/* ****** STARTHOME**** */
+.text-carou{
+    color: black;
+    font-size: 30px;
+
+
+
+    
+}
+
+/* jouer sur le responsive pou le 2 image acoté du caroussel*/
+.col{
+    size: 100%;
+}
+/* modifier limage pour la page contact  */
+
+.contact_info{
+    height: 400px;
+    background-image: url(../image/background.jpg);
+    font-size: 20px;
+    /* color: white; */
+    background-size: 700px 500px ;
+    
+   
+}
+.info_item {
+   padding-top: 20px;
+margin-left: 20px;
+
+}
+.info_item a{
+    color: black;
+}
+@media (max-width:1200px){
+    .contact_info{
+        background-image: url(../image/background.jpg);
+        background-size: 600px 500px ;
+
+    }
+}
+@media (max-width:993px){
+    .contact_info{
+        background-image: url(../image/background.jpg);
+        background-size: 400px 500px ;
+
+    }
+}
+@media (max-width:765px){
+    .contact_info{
+        background-image: url(../image/background.jpg);
+        background-size: 700px 500px ;
+
+    }
+}
+ @media (max-width:579px){ 
+    .contact_info{
+        background-image: url(../image/background.jpg);
+        background-size: 600px 500px ;
+
+    }
+} 
+@media (max-width:477px){ 
+    .contact_info{
+        background-image: url(../image/background.jpg);
+        background-size: 430px 500px ;
+
+    }
+}
+/* ******ENDHOME**** */
+
+/* ******start propos**** */
+
+@media (max-width:440px){ 
+    .enseigne{
+       width:350px;
+       
+    }
+    .salon{
+        width:350px;
+    }
+     /* .switch{
+        width:100px; 
+        display:none;
+    }  */
+
+}
+/* *****Start_login***** */
+
+@media (max-width:440px){ 
+    .loginPic{
+        display: none;
+    }
+}
+/* *****endlogin***** */

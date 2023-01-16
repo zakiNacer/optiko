@@ -1,0 +1,12 @@
+
+le projet n'a pas encore aboutit, il est roujours en cours de dévéloppement.
+
+les travaux en cours de réalisation
+
+Gestion d'espace utilisateur 
+ *modification du mot de passe
+ 
+Expressions régulieres JS
+Regex php 
+
+ 

@@ -1,0 +1,36 @@
+/* h3{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+
+
+/* mise en forme des icones */
+/* .brands .switch{
+    background-color: black;
+    
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+.brands .switch-slide{
+    margin: px;
+}
+.slick-dots li.slick-active button:before{
+    color: blue;
+    display: none;
+}
+.slick-next:before,
+.slick-prev:before{
+    content:"<";
+    background-color: blue;
+    display: none;
+} */
+/*rajouter une animation hover por le zoom */
+
+.switch:hover{
+    display: block;
+    transition: all ease 0.3s;
+    /* cest ici ou ca joue lanimation dans le transform */
+    transform: scale(1.1) translateY(-5px);
+}

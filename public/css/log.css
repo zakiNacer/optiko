@@ -1,0 +1,10 @@
+/* admin login */
+.invalid{
+    color:red
+}
+.valid{
+    color:greenyellow;
+}
+#submit{
+    display: none;
+}
